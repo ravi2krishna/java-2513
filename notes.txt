@@ -1,0 +1,113 @@
+27th Oct 2025
+=============
+
+    -> Java Fullstack 
+
+        -> Frontend Technologies 
+
+            -> HTML -> CSS -> JS -> TypeScript -> React JS 
+
+        -> Backend Technologies 
+
+            -> Core Java 
+
+            -> Advance Java 
+
+        -> Deployment Tools 
+
+            -> Cloud & DevOps 
+
+    -> Java is Backend Technology 
+
+    -> Popular Applications and their Technology Stack 
+
+        -> https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
+
+    
+    -> What is Java ?
+        
+        -> Java is a high-level, general-purpose, 
+            memory-safe, object-oriented programming language. 
+
+        -> high-level programming language
+
+            -> human readable (abc print system)
+
+        -> low-level programming language
+
+            -> machine readable (010101001) 
+
+            -> 01101010 01100001 01110110 01100001 ==> java 
+
+            -> On Hardware level (embedded systems)
+        
+        -> general-purpose programming language
+
+            -> Used for various domains 
+
+            -> Java can be used to build 
+
+                -> Desktop Applications 
+
+                -> Web Applications 
+
+                -> Mobile Applications 
+
+                -> etc 
+        
+        -> domain-specific programming language
+
+            -> Used only for specific use case like SQL 
+
+            -> Structured Query Language is a domain-specific language used to manage data
+                i.e working with database systems 
+
+
+        -> memory-safe programming language
+
+            -> Memory : RAM (Non-Persistent Storage => Temporary Storage => FAST)
+            -> Storage : HDD / SSD (Persistent Storage => Permanent Storage => SLOW)
+
+                -> Garbage Collection 
+
+                    -> int studentID = 101;
+                    -> String studentName = "Ravi";
+
+                    System.out.println("Welcome "+studentName);
+
+                -> NOTE : As studentID is not being used, java will automatically
+                    remove it from memory
+        
+        -> object-oriented programming language
+
+            -> Object : Object is a real world entity 
+
+            -> Representing real world entities in the programming world 
+
+        -> Programming Paradigms 
+
+            -> A programming paradigm is a relatively high-level way to conceptualize 
+                and structure the implementation of a computer program. 
+
+            -> Imperative Approach 
+
+                -> HOW TO DO (Java)
+
+            -> Declarative Approach
+
+                -> WHAT TO DO (SQL)
+
+        -> Compiled Language(Java, C etc) vs Interpreted Languages (Python, Java)
+
+            -> Source Code (Human Readable ) 
+                -> Compilation (Convert Human Readable to intermediate form byte code)
+                    -> Interpretation (byte code convert to machine/binary code)
+
+            -> Compiled Languages are faster in performance 
+
+            -> Java use cases 
+                -> Banking 
+                -> Finance 
+                -> Large Scale Applications (Enterprise Level Applications)
+                
+                -> AI / ML / DL (not java, for python) 
