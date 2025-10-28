@@ -111,3 +111,161 @@
                 -> Large Scale Applications (Enterprise Level Applications)
                 
                 -> AI / ML / DL (not java, for python) 
+
+28th Oct 2025
+=============
+
+    -> Setup Java Environment For Developing Applications
+
+    -> Hardware Spec 
+
+        -> i5 / i3 Processor 
+
+        -> 8 GB RAM 
+
+        -> 500 GB HDD 
+
+    -> Softwares 
+
+        -> Install Java Development Kit (JDK) from oracle 
+
+        -> Install IDE (Integrated Development Environment)
+
+            -> IDE is for writing code 
+                -> auto code completion
+                -> syntax highlight 
+                -> install add-ons / plugins / extensions 
+
+            -> Our IDE : Visual Studio Code (VS Code)
+
+                -> Eclipse
+                -> Intellij 
+                -> etc 
+    
+    -> Install Java 
+
+        -> Verify if java is installed or not 
+            -> open command prompt and run below command
+            -> java --version 
+
+        -> Download From : https://www.oracle.com/java/technologies/downloads/
+
+            -> Install : JDK 25 is the latest Long-Term Support (LTS)
+        
+            -> After Installing close and re-open command prompt and run below command
+
+                -> java --version
+    
+    -> Install IDE (Visual Studio Code - vs code)
+
+        -> Verify if vs code is installed or not 
+            -> open start menu and search for vs code
+
+        -> Download From : https://code.visualstudio.com/download
+
+        -> After Installing open start menu and search for vs code
+
+    -> English (Language)
+
+        -> Start with Alphabets => Words => Sentences 
+
+    -> Java (Programming Language)    
+
+        -> Start with Keywords => Syntax => Programs (Applications)
+
+    -> How To Write Java Code ? 
+
+        -> Any programming language has Syntax (Rules & Guidelines)
+
+        -> Comparing a programming language with english language
+
+            -> i taking class now today to 8 AM now (incorrect)
+
+            -> i'm taking class today at 8 AM (correct)
+
+    -> Rules 
+
+        -> Write java code in a file with .java as extension
+
+            -> print(good morning)
+
+        -> Compilation 
+
+            -> Convert Human Readable Code To Byte Code and Verify Syntax 
+
+            -> we use a program called "javac" java compiler 
+
+            -> syntax 
+
+                javac Filename with extension 
+                javac Demo.java 
+                error: class, interface, enum, or record expected
+
+        -> one of the rules in java is we need to start writing code 
+        with class, interface, enum 
+
+        -> Every java file we write must have a "class" at least
+            class is a keyword here 
+
+                class Demo {
+                    print(good morning)
+                }
+
+            -> error: invalid method declaration; return type required 
+
+        -> one of the rules is main method is starting point of program in java 
+
+            -> method is a block of code that does some task 
+
+            -> main method syntax 
+
+                public static void main(String [] args) {
+
+                }
+
+
+                class Demo {
+                    public static void main(String [] args) {
+                        print(hello)            
+                    }
+                }
+
+            -> error: ';' expected (; indicates end of statement)
+
+        -> one of the rules is, text data should be enclosed in " "
+
+            class Demo {
+                public static void main(String [] args) {
+                    print("hello");            
+                }
+            }
+
+        -> error: cannot find symbol print 
+
+        -> one of the rules is, if you want to print in java use below syntax 
+
+            System.out.println("text");
+
+        -> NOTE : After Successful Compilation, we get byte code in .class file 
+
+            -> javac ==> Demo.java ==> Demo.class 
+
+        -> NOTE : Execution is running byte code using "java" command 
+
+            -> java ClassName 
+            -> java Demo
+ 
+        -> Start with this base code 
+
+            package one_basics;
+            class Demo {
+                public static void main(String [] args) {
+                    System.out.println("hello");            
+                }
+            }
+
+        -> javac ==> Demo.java ==> Demo.class ==> java Demo 
+
+            -> javac one_basics/Demo.java
+            -> java one_basics/Demo
+        
