@@ -269,3 +269,69 @@
             -> javac one_basics/Demo.java
             -> java one_basics/Demo
         
+
+29th Oct 2025
+=============
+
+    -> JVM - JRE - JDK 
+
+    -> JVM - Java Virtual Machine 
+
+        -> Virtual Machine : A logical machine inside a physical machine 
+
+        -> Executes Byte Code 
+
+        -> java one_basics/Demo - invokes jvm to run byte code 
+
+        -> JVM technically converts byte code to machine code 
+    
+    -> JRE - Java Runtime Environment
+
+        -> Runtime Environment : Providing required infrastructure to run programs / apps 
+
+        -> Providers & Consumers 
+
+        -> Consumers need JRE to run java Applications
+
+        -> NOTE : JRE includes JVM 
+
+    -> JDK - Java Development Kit 
+
+        -> Development Kit : Provides required tools to develop/build programs / apps 
+
+        -> Used by Providers i.e Developers 
+
+        -> NOTE : JDK includes JRE 
+
+    
+    -> Variables 
+
+        -> A variable is a named storage location in memory(RAM) used to hold/store data
+
+        -> Variables allows you to 
+
+            -> Assign (Store Data)
+
+            -> Retrieve Data 
+
+            -> Manipulate Data (If required)
+
+        -> In java we can ignore a piece of code using comments 
+            represented using //
+
+        -> Syntax Rules
+
+            datatype variable_name = value;
+        
+        -> concatenation 
+
+            -> In Java, string concatenation refers to the process of joining two or more strings
+                Using the + operator
+
+        -> Manipulate Data (If required), you need to know about "Operators"     
+
+        -> Identifiers & Data Types Next 
+
+
+
+
