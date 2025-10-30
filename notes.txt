@@ -303,6 +303,54 @@
 
         -> NOTE : JDK includes JRE 
 
+    -> Identifiers
+
+        -> Identifiers are "names" given to programs elements for identifying below
+
+            -> Variables
+            -> Methods 
+            -> Classes 
+            -> Interfaces 
+            -> etc 
+
+        -> Identifiers Rules 
+
+            -> Can Contain
+
+                -> Letters (a-z, A-Z)
+                -> Digits (0-9)
+                -> Underscore and Dollar (_ $)
+            
+            -> Cannot Start with
+                
+                -> Digits(0-9)
+                    2moro (invalid)
+            
+            -> Can Start with 
+
+                -> Letters (a-z, A-Z)
+                -> Underscore (_)
+                -> Dollar ($)
+            
+            -> NOTE : Cannot use keywords as Identifiers 
+                     (int, public, class etc)
+
+            -> NOTE : Always follow proper naming conventions for clarity
+
+            -> NOTE : Best practice for naming conventions in java 
+
+                -> Classes / Interfaces -> PascalCase 
+                    -> StudentInfo, AdminInfo
+                
+                -> Variables / Methods -> camelCase 
+                    -> studentName, studentInfo()
+
+                -> Constants / Fixed Values -> ALL_CAPS_UNDERSCORE
+                    -> INSTITUTE_NAME, PI_VALUE  
+
+                -> Packages -> all lower case 
+                    -> com.google.api 
+
     
     -> Variables 
 
@@ -330,7 +378,68 @@
 
         -> Manipulate Data (If required), you need to know about "Operators"     
 
-        -> Identifiers & Data Types Next 
+    
+30th Oct 2025
+=============    
+
+    -> DataTypes 
+
+        -> Data type defines, what kind of data a variable can hold 
+    
+    -> Classification Of Data Types 
+
+        -> Primitive Data Types 
+
+            -> Java has 8 Primitive DataTypes
+
+            -> byte : stores integers from -127 to 127 [ Size : 1 Byte]
+            -> short : stores integers from -32768 to 32767 [ Size : 2 Bytes]
+            -> int : stores integers from -2^31 to 2^31 -1 [ Size : 4 Bytes]
+            -> long : stores huge integers [ Size : 8 Bytes]
+                -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+            
+            -> float : stores decimal numbers [Size : 4 Bytes] [1.0,2.5,3.1 etc]
+            -> double : stores decimal numbers [Size : 8 Bytes] [1.10200202 etc]
+
+            -> char : stores single character [ Size : 2 Bytes] ['$','a','0']
+            -> boolean : stores either true or false [ Size : 1 Byte]
+
+        -> Complex Data Types 
+
+            -> Strings 
+            -> Arrays 
+            -> Custom Classes you create 
+
+    -> Manipulate Data Using Operators
+
+    -> Operators 
+
+        -> Operators are "symbols" used to perform operations on variables and their Values
+
+        -> Operator Types 
+
+        -> Arithmetic Operators 
+
+            -> Used for mathematical calculations 
+
+                -> + - * / % 
+
+        -> Compound Assignment Operator
+
+            -> Assignment Operator is = 
+            -> Combing Assignment Operator with Arithmetic Operators 
+            -> Used to short hand / concise code 
+
+            -> x = 10
+            -> x = x + 5 or x += 5
+            -> x = x * 5 or x *= 5 
+        
+        -> Increment / Decrement Operator 
+
+            -> Increment increase value  ++
+            -> Decrement decrease value  --
+
+            
 
 
 

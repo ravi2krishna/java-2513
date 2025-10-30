@@ -6,6 +6,29 @@ public class Demo {
     
     public static void main(String[] args) {
 
+        // identifiers
+        int num = 10;
+        int num2 = 10;
+        int num_ = 10;
+        int num$ = 10;
+
+        // int 2day = 30; // cannot start with digit
+        int _day = 30;
+        int $day = 30;
+
+        // int class = 10; // class is keyword
+
+        // improper way of using identifiers 
+        String x = "Ravi";
+        int y = 20;
+        double z = 9.5;
+
+        // proper way of using identifiers 
+        String studentName = "Ravi";
+        int studentAge = 20;
+        double studentGPA = 9.5;
+
+
         // number = 10; // incorrect way of defining variables 
         // text = hello; // incorrect way of defining variables 
           
