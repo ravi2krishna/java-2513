@@ -440,7 +440,98 @@
             -> Decrement decrease value  --
 
             
+31st Oct 2025
+=============
+
+    -> Comparison Operators (Relational)
+
+        -> Used to Comparing values, results in boolean value i.e true/false 
+
+        -> == (equality check)
+        -> != (not equal check)
+        -> > 
+        -> <
+        -> >= 
+        -> <= 
+
+    -> Logical Operators 
+
+        -> Used to combine multiple condition checks, results in boolean value i.e true/false 
+
+        -> && (and) : returns true, only when both conditions are true, otherwise false
+        -> || (or) : returns true, when one of the conditions is true, when both are false then only its false
+        -> ! (not) : negates the result, if true then false, if false then true
+
+                X       Y         X && Y    X || Y    ! X    ! Y
+                T       T           T         T         F       F
+                T       F           F         T         F       T
+                F       T           F         T         T       F
+                F       F           F         F         T       T     
 
 
+    -> Bitwise Operators 
+
+        -> Used for low level programming (010010101)
+
+        -> & : when both bits are one, then the result is 1
+
+            1 1 - 1
+            1 0 - 0
+            0 1 - 0
+            0 0 - 0
+
+        -> | : when either one of the bit is 1, then result is 1
+
+            1 1 - 1
+            1 0 - 1
+            0 1 - 1
+            0 0 - 0
+
+        -> etc 
 
 
+    -> Control Structures / Statements
+
+        -> Control statements in Java are fundamental constructs that manage 
+        the "flow of program execution". 
+        
+        -> They allow for decision-making, repetitive tasks, and altering the 
+        normal sequential execution of statements. 
+        
+        -> Control statements are categorized into three main types
+
+            -> Conditional Statements (Decision Making Statements)
+
+            -> Looping Statements (Iteration Statements)
+
+            -> Branching Statements (Jump Statements)
+
+        -> Conditional Statements (Decision Making Statements)
+
+            -> if statement: Executes a "block of code" only if a 
+                specified condition evaluates to true.
+
+                -> syntax
+
+                    if (condition) {
+                        // code to be executed if condition is true
+                    }
+
+            -> if-else statement: Executes one block of code if the condition is true, 
+                and a different block if the condition is false. 
+
+                -> syntax
+
+                    if (condition) {
+                        // code to be executed if condition is true
+                    } else {
+                        // code if condition is false
+                    }
+            
+            -> The ternary operator in Java, also known as the conditional operator, 
+            is a shorthand way to write simple if-else statements, particularly when assigning 
+            a value based on a condition.
+
+                -> syntax
+
+                    result = (condition) ? value_if_true : value_if_false;

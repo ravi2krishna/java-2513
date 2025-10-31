@@ -1,0 +1,39 @@
+# Simple Student Management System 
+
+-> Store following student information
+
+    -> ID 
+    -> Name 
+    -> Age 
+    -> Scores for quiz, assignment and exam 
+    -> Attendance 
+
+-> Calculate
+
+    -> Total Scores 
+    -> Average Score 
+
+-> Determine
+
+    -> Student Passed or not (passed means Average Score Above 75)
+
+-> Simulate Daily Attendance 
+    
+    -> Increase one day in Attendance 
+
+-> Give Award
+
+    -> Average Score should be 85 or above 
+    -> Attendance Should be Above 75
+
+-> Display Results 
+
+    -> Student ID 
+    -> Student Name 
+    -> Total Scores 
+    -> Average Score 
+    -> Student Passed or not
+    -> Till Now Attendance
+    -> Student Awarded or not
+
+
