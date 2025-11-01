@@ -1,5 +1,7 @@
 package five_conditionals;
 
+import java.util.Scanner;
+
 public class Demo {
     public static void main(String[] args) {
         
@@ -55,7 +57,74 @@ public class Demo {
         int max = (a>b) ? a : b;
         System.out.println(max);
 
+        // if-else-if or else if ladder
+        int marks = 65;
 
+        if (marks >= 90) {
+            System.out.println("Passed");
+        } else {
+            System.out.println("Failed");
+        }
+
+        // go with grading system 
+        if (marks >= 90) {
+            System.out.println("A Grade");
+        } else if (marks >= 75) {
+            System.out.println("B Grade");
+        } else if (marks >= 60) {
+            System.out.println("C Grade");
+        } else if (marks >= 50) {
+            System.out.println("D Grade");
+        } else if (marks >= 35) {
+            System.out.println("E Grade");
+        } else {
+            System.out.println("Failed");
+        }
+
+        // switch-case 
+        int dayNumber = 6;
+
+        switch (dayNumber) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
+            default:
+                System.out.println("Invalid Day");
+                break;
+        }
+
+        // Scanner use case for reading inputs 
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter You Name: ");
+        String name = input.next();
+        System.out.println("Welcome: "+name);
+
+        // voting app using input 
+        System.out.println("Enter You Age: ");
+        int age = input.nextInt();
+        if (age >= 18) {
+            System.out.println("You Can Vote "+name);
+        } else {
+            System.out.println("You Cannot Vote "+name);
+        }
 
     }
 }
