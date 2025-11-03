@@ -609,3 +609,77 @@
         -> nextLine(): Reads the entire line of input, including spaces, until a newline character is encountered, as a String. 
         -> etc 
 
+3rd Nov 2025
+=============
+
+    -> Looping Statements (Iteration Statements)
+
+        -> Java offers several looping statements to repeatedly execute a block 
+        of code based on a specified condition. 
+        These loops are essential for tasks requiring repetitive actions and 
+        help reduce code redundancy.
+
+        -> Types Of Looping Statements
+
+            -> for loop 
+
+                -> The for loop is used when the number of iterations is known or fixed. 
+                It consists of three parts within its parentheses: 
+                    initialization, condition, and increment/decrement.
+
+                -> syntax
+
+                    for (int i = 0; i < 5; i++) {
+                        // Code to be executed in each iteration
+                        System.out.println("Iteration: " + i);
+                    }
+
+
+            -> while loop
+
+                -> The while loop repeatedly executes a block of code as long as 
+                    a given condition remains true. 
+                
+                -> The while loop is used when the number of iterations is unknown. 
+
+                -> syntax
+
+                    int count = 0;
+                    while (count < 3) {
+                        // Code to be executed
+                        System.out.println("Count: " + count);
+                        count++;
+                    }
+
+            -> do-while loop 
+
+                -> The do-while loop is similar to the while loop, 
+                    but it guarantees that the loop body will execute at least once 
+                    before checking the condition i.e first condition check is skipped 
+
+                -> syntax
+
+                    int i = 0;
+                    do {
+                        // Code to be executed at least once
+                        System.out.println("Value of i: " + i);
+                        i++;
+                    } while (i < 2);
+
+        -> Nested Loops 
+
+            -> A nested loop in Java refers to a loop structure where one loop 
+            is placed inside another loop. This means that for each iteration 
+            of the outer loop, the entire inner loop completes its execution. 
+            
+            -> Nested loops are useful for iterating through multi-dimensional 
+                data structures like arrays, array lists etc 
+
+            -> syntax 
+
+                for (initialization_outer; condition_outer; increment/decrement_outer) {
+                // Outer loop body
+                    for (initialization_inner; condition_inner; increment/decrement_inner) {
+                        // Inner loop body
+                    }
+                }
