@@ -34,5 +34,18 @@ public class Demo {
         System.out.println("Name: "+studentName);
         System.out.println("IDS: "+idsStudents);
 
+        // Type Conversion 
+        int num = 10;
+        double num1 = num;
+        System.out.println("Original: "+num);
+        System.out.println("Converted: "+num1);
+
+        // Type Casting 
+        double num2 = 3.14;
+        // int num3 = num2;
+        int num3 = (int)num2;
+        System.out.println("Original: "+num2);
+        System.out.println("Converted: "+num3);
+
     }
 }

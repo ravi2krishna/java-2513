@@ -1,0 +1,39 @@
+# Task On Working With Operators (Don't Use Control Structures)
+
+# Assume You are building an Student Management System 
+
+# In this project, you simulate a simple system that stores and processes 
+    a student’s academic and attendance details.
+
+-> Take Input from Student and Store Data 
+
+    -> ID 
+    -> Name
+    -> Age 
+    -> Quiz Score (0-100)
+    -> Assignment Score (0-100)
+    -> Exam Score (0-100)
+    -> Attendance (0-100)
+
+    -> Calculate 
+
+        -> Total Score 
+        -> Average Score 
+
+    -> Based On Average Score, say the student passed or not (pass means avb above 75)
+
+    -> Increase Attendance By one point 
+
+    -> Check If the Student Got An Award 
+
+        -> Student Should Pass 
+        -> Student requires above 75 attendance
+
+    -> Display Output 
+
+        -> Name 
+        -> Total Score 
+        -> Average Score 
+        -> Student Passed status 
+        -> Student Award status 
+

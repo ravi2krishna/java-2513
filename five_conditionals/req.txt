@@ -1,0 +1,36 @@
+# Task On Working With Conditionals
+
+# In the Student Management System, implement fee discount calculations 
+
+
+-> Take Inputs 
+
+    -> Student Grade (1-12)
+
+    -> Base Fee
+
+    -> Check For Academic Topper Status 
+
+    -> For Student Grade in 9 to 12 
+
+        -> If Academic Topper, Apply 20% discount on fee
+        -> If Not Academic Topper, Apply 10% discount on fee
+
+    -> For Student Grade in 6 to 8, Apply 5% discount on fee
+
+    -> For Student Grade below 6, No Discounts
+
+    -> Additionally Give Discounts
+
+        -> Only For Grade 10, Apply 3% discount on fee
+        -> Only For Grade 12, Apply 5% discount on fee
+
+    -> Display Output 
+
+        -> Student Grade
+
+        -> Actual Fee 
+
+        -> Total Discount Applied 
+
+        -> Fee To Pay After Discount 

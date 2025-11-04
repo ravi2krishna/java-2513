@@ -410,6 +410,31 @@
             -> Arrays 
             -> Custom Classes you create 
 
+    -> Type Conversion & Type Casting 
+
+        -> Type conversion and casting in Java refer to the process of transforming/converting 
+            a  value from one data type to another data type.
+
+        -> Type Conversion (Implicit/Widening)
+
+            -> This occurs automatically when a smaller data type is assigned to a larger data type, 
+                without any explicit instruction from the programmer.
+            
+            -> It is considered safe as there is no risk of data loss.
+
+        -> Type Casting (Explicit/Narrowing)
+
+            -> This requires explicit instruction from the programmer to 
+                convert a larger data type to a smaller data type.
+            
+            -> It is used when there is a potential for data loss, 
+                as the smaller data type might not be able to hold the entire value of the larger one.
+            
+            -> Syntax 
+            
+                (targetDataType) valueOrVariable
+
+
     -> Manipulate Data Using Operators
 
     -> Operators 
@@ -683,3 +708,29 @@
                         // Inner loop body
                     }
                 }
+
+
+4th Nov 2025
+=============
+
+    -> Branching Statements (Jump Statements)
+
+        -> Branching statements in Java are used to "alter" the "normal sequential 
+            flow" of control within a program. 
+            They allow the program to make decisions and jump to different parts 
+            of the code based on certain conditions or requirements. 
+
+        -> break 
+
+            -> Used to immediately "terminate" the innermost switch statement or loop
+
+        -> continue
+
+            -> Used to "skip the current iteration" of a loop (for, while, do-while) 
+                and proceed to the next iteration. 
+
+        -> return
+
+            -> Used to explicitly exit a method and return control to 
+                the point where the method was called.
+    

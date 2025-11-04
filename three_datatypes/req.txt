@@ -1,0 +1,6 @@
+# Task On Working With Variables 
+
+# https://www.cardekho.com/hyundai/venue/specs
+
+# Write a java program to implement variables & data types from above application 
+
