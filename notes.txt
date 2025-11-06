@@ -734,3 +734,149 @@
             -> Used to explicitly exit a method and return control to 
                 the point where the method was called.
     
+
+6th Nov 2025
+=============
+
+    -> Loops Task 
+
+    -> OOPS - Object Oriented Programming 
+
+    -> OOPS - We Structure Programs Using Real World Entities(Objects)
+
+    -> Object-oriented programming (OOP) is a programming paradigm(style)
+    that organizes code around "objects", which are software entities that 
+    contain both data (variables/attributes) and  behavior(functions/methods). 
+    
+    -> OOP promotes modular, reusable, and maintainable code.
+
+    -> To Work with OOP Style, we need an understanding of 
+
+        -> Objects 
+
+        -> Classes 
+
+        -> Methods 
+
+        -> Instance Data 
+
+        -> Class Data 
+
+        -> OOP Principals 
+
+            -> Inheritance 
+
+            -> Encapsulation 
+
+            -> Abstraction 
+
+            -> Polymorphism 
+
+    -> Earlier 
+
+        -> Writing Long List Of Instructions (task oriented)
+
+    -> Moving Forward 
+
+        -> Thinking in terms of real world entities (objects)
+
+            -> Object - Data        (variables/attributes)
+            -> Object - Behavior    (methods/functions)
+
+        -> Writing Code that follows Object Oriented Design 
+
+            -> Focus in on Objects and their relationships, not just tasks 
+
+        
+    -> Object 
+
+        -> In terms of real world, everything is an Object 
+
+        -> An Object Has two entities 
+
+            -> An Object has something like characteristics / properties 
+                i.e (variables/attributes)
+
+                -> CAR is an object 
+
+                    -> CAR has something
+                    -> CAR has brand
+                    -> CAR has price
+                    -> CAR has color 
+                    -> CAR has etc 
+
+            -> An Object does something like behaviors / actions 
+                i.e (methods/functions)
+
+                    -> CAR does something
+                    -> CAR does drive forward
+                    -> CAR does drive backward
+                    -> CAR does sound horn 
+                    -> CAR does blink indicators 
+                    -> CAR does etc  
+    
+    -> But, how to create an Object ?
+
+        -> We need "Class" 
+    
+    -> Class 
+
+        -> A class is a blueprint of object
+
+        -> A class will define what characteristics & behaviors, an object should possess 
+
+    -> Object 
+
+        -> An object is an actual/real instance of class 
+
+    -> Laptop (class)
+
+        -> Laptop can have a brand, price, weight and can do playing video, audio, snaps
+
+        -> Dell Object 
+
+            -> Laptop brand = dell 
+            -> Laptop price = 65000 
+            -> Laptop weight = 2.5 kgs 
+
+            -> Dell laptop can play video (1080p)
+            -> Dell laptop can play audio (10watt)
+            -> Dell laptop can take snap (12 MP Camera)
+
+        -> Apple Mac Object 
+
+            -> Laptop brand = apple 
+            -> Laptop price = 150000 
+            -> Laptop weight = 1.2 kgs 
+
+            -> Apple laptop can play video (4k)
+            -> Apple laptop can play audio (30watt)
+            -> Apple laptop can take snap (24 MP Camera)
+
+
+    -> Methods 
+
+        -> Behaviors / Actions an object can perform 
+
+        -> A method is a block of code that performs a task 
+
+    -> syntax 
+            
+            Creating Class
+            ---------------
+
+            class ClassName {
+
+            }
+
+            Creating Object
+            ---------------
+
+            ClassName objectName = new ClassName();
+
+            Creating Method
+            ---------------
+
+            access_modifier returnType methodName() {
+                
+            }

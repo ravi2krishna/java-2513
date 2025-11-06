@@ -1,0 +1,45 @@
+# Task On Working With Loops 
+
+# In the Student Management System, implement Grade Tracker
+
+-> Take Inputs 
+
+    -> Student ID
+    -> Student Name 
+    -> Attendance 
+
+-> Prompt the student to input score 
+
+    -> Repeatedly ask student for marks (yes/no)
+
+    -> Keep taking scores till the student says no 
+
+        -> do you want to enter scores (yes/no) ?
+            -> yes -> ask for score -> 90
+        -> do you want to enter scores (yes/no) ?
+            -> yes -> ask for score -> 85
+        -> do you want to enter scores (yes/no) ?
+            -> no -> then stop taking scores 
+    
+    -> Based on scores you got, calculate Total Marks 
+
+    -> Based on scores you got, calculate Average Marks 
+
+-> Based On Average Marks 
+
+    -> 85 & Above = "A" Grade
+    -> 75 to 84 = "B" Grade
+    -> 74 to 60 = "C" Grade
+    -> 59 to 35 = "D" Grade
+    -> below 35 = "FAIL"
+
+
+-> Attendance >= 75 and "A" grade Give him Award 
+
+-> Output Details 
+
+    -> Student Name 
+    -> Total Score 
+    -> Average Score
+    -> Number Of Scores 
+    -> Award Status 

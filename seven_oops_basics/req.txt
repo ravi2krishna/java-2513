@@ -1,0 +1,26 @@
+# Work with Classes, Objects & Methods 
+
+-> Create a Book class to represent a book 
+-> Each book should have 
+    -> Title 
+    -> Author 
+    -> Publication Year
+    -> Price 
+-> Display Book Info showing above data and if need apply discounts based on Publication Year 
+    -> Book is 2 years old and less - No discount 
+    -> Book is 3-5 years old - 20% discount
+    -> Book is 5+ years old - 40% discount
+
+
+-> Create a Employee class to represent a Employee 
+-> Each Employee should have 
+    -> ID 
+    -> Name 
+    -> Age 
+    -> Job Title 
+    -> Salary  
+
+-> Display Employee Info showing above data and if need apply conditions 
+    -> Display All Employees Complete Info 
+    -> Display All Employees Short Info should have only Name & Job Title 
+    
