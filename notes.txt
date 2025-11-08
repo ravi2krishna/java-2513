@@ -880,3 +880,74 @@
             access_modifier returnType methodName() {
                 
             }
+
+8th Nov 2025
+=============
+
+    -> Instance Variables 
+
+        -> Variables which are declared inside a class but outside the methods
+            and also not static 
+
+        -> Instance Variables belong to each object of class 
+        
+        -> Memory is allocated when an object is created 
+
+        -> If we don't assign values, java will assign default values 
+
+    -> Local Variables 
+
+        -> Variables which are declared inside a method, block, constructor 
+
+        -> Only Accessible within declared areas like method, block, constructor 
+
+        -> Local Variables must be initialized before use 
+
+    -> Static Variables (Class Variables)
+
+        -> Variables which are declared inside a class but outside the methods
+            and also using static keyword 
+
+        -> Static Variables belong to class, not individual objects 
+
+        -> Only One Copy exists and is shared among all the objects 
+
+        -> Accessed Using Class Name 
+
+        -> NOTE: When you need common data for all objects use Static Variables
+
+    -> Methods 
+
+        -> Behaviors / Actions an object can perform 
+
+        -> A method is a block of code that performs a task 
+
+        -> Method Declaration
+
+            public int methodName(parameters) --> Method Header
+            
+            {
+                statement
+                statement           --> Method Body 
+                statement
+            }
+
+            -> case 1 
+
+                public void welcomeMessage() {
+
+                }
+
+            -> case 2 
+
+                public int mathCalculations(int num1, int num2) {
+                    return value
+                }
+
+            -> case 3 
+
+                public int mathCalculations(int num1, int num2) throw Exceptions {
+                    return value
+                }
+
+
