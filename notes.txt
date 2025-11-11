@@ -950,4 +950,47 @@
                     return value
                 }
 
+11th Nov 2025
+=============
 
+    -> Constructors 
+
+        -> Method : Block of code thats performs a task 
+
+        -> Constructor : Block of code thats performs data initialization 
+
+            -> Constructor is a special method that is automatically called, 
+                when an object is created 
+
+        -> Normal Methods (instance methods)
+
+            -> create object 
+            -> call method 
+
+        -> Constructors are mainly used for 
+
+            -> initialization of default values (custom data)
+
+        -> NOTE
+
+            -> Constructors name should always be class name only, unlike methods 
+
+            -> Constructors will not have return type 
+
+        -> Types Of Constructors
+
+            -> Default Constructor / Implicit Constructor
+
+                -> Used to set all objects with same default values 
+
+            -> Parameterized Constructor / Explicit Constructor
+
+                -> Used to set different objects with different values 
+
+    -> "this" keyword 
+
+        -> this keyword refers to current class object  
+
+        -> we use this to avoid ambiguity, between variables and parameters 
+
+        
