@@ -1,0 +1,71 @@
+# Build Learning Management System (LMS)
+
+-> Goal of the project is to simulate "grading" and "payment" tracking within LMS
+
+-> In LMS, currently we have 
+    
+    -> Student Entity 
+
+    -> Trainer Entity 
+
+    -> Other Entities can be expected in future (Admin, Mentor etc)
+
+-> Idea here is to design a system using classes, objects, methods, variables etc 
+    to better understand how to organize code w.r.t OOP Principals 
+    to simulate a Real World Application
+
+-> Student Entity 
+
+    -> ID 
+    -> Name 
+    -> Attendance (0-100)
+    -> Score (0-100)
+    
+    -> Collect Above Data From Student 
+
+    -> Attendance Credits To be given based on number of sessions attended 
+
+        -> 30 and above : 5 Credits
+        -> 20-29 : 3 Credits
+        -> Below 20 : 0 Credits
+
+    -> Score Credits To be given based on Score 
+
+        -> 85 and above : 5 Credits
+        -> 60-84 : 3 Credits
+        -> Below 60 : 0 Credits
+
+    -> Give Award based on total credits 
+
+        -> Credits: 10 ===> "GOLD" 
+        -> Credits: 8-9 ===> "SILVER" 
+        -> Credits: Below 8 ===> "BRONZE" 
+
+    
+
+-> Trainer Entity 
+
+    -> ID 
+    -> Name 
+    -> Ask for Number Of Sessions Taken By Trainer
+    -> Collect Above Data From Trainer 
+
+    -> Calculate Payments (per session 1500) based on Number Of Sessions Taken By Trainer
+
+    -> Also prompt the student with asking to rate the trainer (1 to 5) 
+
+    -> Based On Rating if Rating is 5 give 5000 bonus to trainer 
+
+    -> Calculate Total Payment To be made for trainer 
+
+-> Constructor Based Requirements 
+
+    -> studentID
+    -> studentName
+    -> studentMobileNumber
+    -> studentAge 
+    -> studentEmail  
+
+-> Showcase Basic Info which is like hover the mouse 
+
+-> Showcase Complete Info which is like click the mouse (like click profile button)

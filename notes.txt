@@ -993,4 +993,67 @@
 
         -> we use this to avoid ambiguity, between variables and parameters 
 
+
+13th Nov 2025
+=============
+
+    -> Constructor Overloading 
+
+        -> Constructor overloading in Java allows a class to have 
+        multiple constructors, each with the same name (the class name) 
+        but a different parameter list. 
         
+        -> This enables objects of the class to be initialized in various ways, 
+            providing flexibility in object creation.
+
+        -> Based On 
+
+            -> Number Of parameters
+            -> Types Of parameters
+            -> Order Of parameters
+
+        -> this(): constructor call for calling another constructor  
+
+    
+    -> So far we worked with data types that will hold one single value in a variable
+
+    -> My next use case demands me to hold multiple values in a single variable ?
+
+        -> In java we have Collections API (Framework), to handle 
+            multiple values in a single variable
+
+    -> To get started with Collections API, it's better to know about "Arrays" first 
+
+    -> Arrays 
+
+        -> Arrays in Java are fundamental data structures used to store a 
+        fixed-size, sequential collection of elements of the same data type(Homogeneous). 
+        They are objects in Java and can hold either primitive data types (like int, char, float) 
+        or objects of a class i.e complex data types.
+
+        -> To access data inside arrays 
+
+            -> Indexed Access: Elements are accessed using a zero-based index, 
+                meaning the first element is at index 0, the second at index 1, 
+                and so on.
+
+        -> syntax
+
+            datatype[] variable_name = new datatype[size];
+
+                int[] numbers = new int[5]; 
+                // Declares an array named 'numbers' that can hold 5 integers.
+
+        -> Array Types 
+
+            -> Single Dimensional Arrays 
+
+            -> Multi Dimensional Arrays 
+
+        -> We can work with arrays in the same way, as we worked with simple variables like
+
+            -> We can perform operations using Operators
+
+            -> We can perform checks using Conditionals 
+
+            -> We can repeat iterations using Loops 
