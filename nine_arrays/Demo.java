@@ -78,6 +78,68 @@ public class Demo {
             }
         }
 
+        // Multi Dimensional Arrays 
+        // Declaration and initialization with fixed sizes
+        int[][] matrix = new int[3][4]; // A 3x4 matrix (3 rows, 4 columns)
+        
+        // data assigning is done using index 
+        matrix[0][0] = 1;
+        matrix[0][1] = 2;
+        matrix[0][2] = 3;
+
+        // data accessing is done using index  
+        System.out.println(matrix[0][0]);
+        System.out.println(matrix[0][2]);
+
+        // System.out.println(matrix[0][10]); // java.lang.ArrayIndexOutOfBoundsException
+
+        // Declaration and initialization with values at creation
+        int[][] md_numbers = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+
+        System.out.println(md_numbers[1][0]);
+        System.out.println(md_numbers[1][1]);
+
+        // changing/modifying data is done using index 
+        md_numbers[1][0] = 6;
+        md_numbers[1][1] = 5;
+        md_numbers[1][2] = 4;
+
+        System.out.println(md_numbers[1][0]);
+        System.out.println(md_numbers[1][1]);
+
+        // access all elements 
+        System.out.print(md_numbers[0][0]);
+        System.out.print(md_numbers[0][1]);
+        System.out.print(md_numbers[0][2]);
+        System.out.println();
+        System.out.print(md_numbers[1][0]);
+        System.out.print(md_numbers[1][1]);
+        System.out.print(md_numbers[1][2]);
+        System.out.println();
+        System.out.print(md_numbers[2][0]);
+        System.out.print(md_numbers[2][1]);
+        System.out.print(md_numbers[2][2]);
+        System.out.println();
+        System.out.println("==============");
+
+        // length 
+        System.out.println(md_numbers.length);
+
+        // Iterating Through Arrays 
+        // say we got 100 values, then it will be simple 
+        for (int i = 0; i < md_numbers.length; i++) {
+            // System.out.println(md_numbers[i]);
+            System.out.println();
+            int [] data = md_numbers[i];
+            for (int j = 0; j < data.length; j++) {
+                System.out.print(data[j]);
+            }
+        }
+        
     }
 
 }

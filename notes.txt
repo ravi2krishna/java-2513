@@ -1048,6 +1048,8 @@
 
             -> Single Dimensional Arrays 
 
+                datatype[] variable_name = new datatype[size];
+
             -> Multi Dimensional Arrays 
 
         -> We can work with arrays in the same way, as we worked with simple variables like
@@ -1057,3 +1059,31 @@
             -> We can perform checks using Conditionals 
 
             -> We can repeat iterations using Loops 
+
+
+15th Nov 2025
+=============
+
+    -> Multi Dimensional Arrays 
+
+        -> A multidimensional array in Java is essentially an "array of arrays."
+         The most common type is a two-dimensional array, which can be 
+         visualized as a "table" or a "grid" with rows and columns. 
+         
+        -> You can also create arrays with three or more dimensions, 
+            though they are less common. 
+
+        -> https://lh4.googleusercontent.com/proxy/5FHM7hJI0hPo_rJgx4R8a2CC8v2ISrrCnekWkU007oZbePGbL_aN60EzDxlhKtnt1Zh9traQP2DQJV4w-6cyIDB8hG3E3v7Y4JC2lGd5Y3YHVQ
+
+        -> For Accessing Data in multidimensional array use below Approach
+
+            -> https://media.geeksforgeeks.org/wp-content/uploads/20240415190237/Representation-of-Matrix.webp
+
+        -> syntax
+
+            datatype[][] variable_name = new datatype[row_size][column_size];
+        
+            int[][] matrix = new int[3][4]; // A 3x4 matrix (3 rows, 4 columns)
+
+
+    
