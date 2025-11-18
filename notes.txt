@@ -1086,4 +1086,48 @@
             int[][] matrix = new int[3][4]; // A 3x4 matrix (3 rows, 4 columns)
 
 
-    
+18th Nov 2025
+=============
+
+    -> Strings 
+
+        -> A String is collection or sequence of characters 
+
+        -> Strings is a special data type in java 
+
+            -> String is a non-primitive data type, but assigning data can be done like primitives 
+
+            -> Strings are handled in different way compared to other classes 
+
+            -> When working with other non-primitive data types, when we print object we get object address  
+
+            -> But with strings though they are non-primitive data types, when we print object we get empty space
+
+            -> String Memory Management 
+
+                -> Strings have a concept called String Memory Pool, where same strings will be allocated with 
+                    same memory address 
+
+                -> This "interning" process ensures that multiple identical string literals point to the same 
+                    memory location, preventing duplicate objects and saving memory. 
+
+                -> https://journaldev.nyc3.cdn.digitaloceanspaces.com/2012/11/String-Pool-Java1-450x249.png
+
+                -> == with strings we compare objects 
+                -> == with primitives data types like int, float etc we compare values  
+                -> equals() with strings we compare values 
+
+
+        -> String Methods 
+
+            -> String class provides a rich set of methods to work with string data 
+
+            -> String are one of the most widely used data type in any programming language
+
+            -> Majority of inputs in web Applications will be strings 
+
+        -> String Immutability 
+
+            -> Strings are constant i.e they cannot be changed once created 
+
+            -> Immutable means cannot be changed / modified 
