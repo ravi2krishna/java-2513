@@ -1131,3 +1131,122 @@
             -> Strings are constant i.e they cannot be changed once created 
 
             -> Immutable means cannot be changed / modified 
+
+
+20th Nov 2025
+=============
+
+    -> String Mutability 
+
+    -> Say we have string, when we perform any operation on Strings say like concat(), then
+        it results in creation of new string objects 
+
+    -> This Approach leads to performance issues, when making lot of modifications on strings
+
+    -> To overcome this, Java has provided following classes to handle Mutable Strings
+
+        -> StringBuffer (Thread Safe)
+
+        -> StringBuilder (Not Thread Safe)
+
+    -> NOTE:
+
+        -> Strings: Like Pen & Paper 
+
+        -> StringBuffer & StringBuilder: Like White Board & Marker 
+
+    
+    -> Local variables 
+
+    -> Static variables 
+
+    -> Instance Variables 
+
+    -> Static Methods 
+
+    -> Static Blocks 
+
+    -> Instance Methods 
+
+    -> Instance Blocks 
+
+    -> NOTE : How can we allocate memory to a java program ?
+
+        -> If Memory is not allocated, we cannot run programs 
+
+            -> Using "new" keyword  (Via Creating Object)
+
+            -> Using "static" keyword (Without Object Creation)
+
+    -> Assume Main is not static 
+
+        -> To Start Program Execution 
+
+        -> We need entry point i.e main method 
+
+        -> Main is not static 
+
+        -> Object needs to be created first 
+
+        -> But to create the object, java needs to execute program (begins a main)
+
+        -> Which again requires the object, this leads to Circular Dependency Problem 
+
+    -> To overcome above Circular Dependency Problem, java came up with "static" keyword 
+
+    -> Class Loader Subsystem 
+
+        -> First will write .java file 
+        -> We compile then we get .class file 
+        -> The .class file is loaded into Class Loader Subsystem 
+        -> Then class loader Subsystem, will look for static fields(variables, methods, blocks) are present
+        if present then immediately in method area, a memory block will be allocated (only once memory allocated)
+        -> Then class loader will look for Object Creation(new keyword), if present then 
+        immediately in heap area, a memory block will be allocated (for every object memory is allocated)
+
+    -> Static Methods vs Instance Methods 
+
+        -> Static Methods
+
+            -> Belong to the class, not an instance.
+            -> Can be called directly using the class name (no need to create an object).
+            -> Cannot directly access non-static variables or methods because they are tied to an instance.
+            -> Declared using the static keyword.
+
+        -> Instance Methods 
+
+            -> Belong to the object (instance).
+            -> Require an object to be called.
+            -> Can access both static and non-static variables/methods.
+
+    
+    -> Static Blocks vs Instance Blocks 
+
+        -> Static Blocks 
+
+            -> Executed once when the class is loaded into memory
+            -> Used for initializing static variables 
+            -> Declared using static { ... }
+                -> static { }
+
+        -> Instance Blocks 
+
+            -> Executed each time an object is created
+            -> Used for initializing instance variables 
+                -> We used constructors for same purpose, then why instance blocks ?
+                    -> NOTE: Constructors internally use Instance Blocks 
+            -> Declared using without static { ... }
+                -> { }
+
+
+    -> NOTE: Order Of Execution, When Object is not created 
+
+        -> Static Blocks 
+        -> Static Main Method 
+
+    -> NOTE: Order Of Execution, When Object is created 
+
+        -> Static Blocks 
+        -> Static Main Method 
+        -> Instance Block 
+        -> Constructor 
