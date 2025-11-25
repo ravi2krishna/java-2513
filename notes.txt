@@ -1250,3 +1250,96 @@
         -> Static Main Method 
         -> Instance Block 
         -> Constructor 
+
+
+25th Nov 2025
+=============
+
+    -> OOP Principals 
+
+        -> Inheritance 
+
+            -> Establishing relationship between Classes, so that we can achieve "REUSABILITY"
+
+        -> Encapsulation
+
+            -> Hiding Data 
+
+            -> Encapsulation means binding Data & Behavior together, we use Class 
+
+        -> Abstraction 
+
+            -> Hiding Implementation (Internal Details)
+
+            -> Show Only essential features required 
+
+        -> Polymorphism
+
+            -> An ability of a single entity, to exhibit Multiple Forms 
+
+
+    -> Inheritance
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the properties(vars) and methods 
+        of an existing class, called a superclass or parent class.
+
+        -> Main purpose of Inheritance is Code Reusability
+
+        -> Class which inherits is called CHILD CLASS
+
+        -> Class that passes traits is called PARENT CLASS
+
+        -> Inheritance can be introduced using "extends" / "implements" keyword
+
+        -> With Inheritance
+
+            -> Code Reusability
+
+            -> No Code Duplication 
+
+            -> Project Size is less 
+
+            -> Code Reliability improved 
+
+            -> Code Maintainability improved
+
+        -> Types Of Inheritance
+
+            -> Single Level Inheritance
+
+                -> One Parent -> One Child 
+
+                -> A class inherits from Single Parent Class 
+
+            -> Multi Level Inheritance 
+
+                -> Grand Parent -> Parent -> Child 
+
+                -> A class inherit from another class, which in turn inherits from another class 
+            
+            -> Multiple Inheritance 
+
+                -> If a class inherits from more than one class / two or more classes
+                    then it's called Multiple Inheritance
+
+                -> Java doesn't support Multiple Inheritance using Classes 
+
+                -> Java supports Multiple Inheritance using "Interfaces" 
+
+                -> Interface : Interfaces have abstract methods (No Implementation For Methods)
+
+                -> To achieve Multiple Inheritance we use "implements" keyword     
+
+            -> Hierarchial Inheritance
+
+                -> One Parent -> Multiple Child 
+
+                -> Multiple Classes can Inherit from a Single Parent 
+
+            -> Hybrid Inheritance
+
+                -> Combination or two or more types 
+
+                
+
