@@ -1383,3 +1383,111 @@
 
             -> NOTE : On Inner Level Classes we can use all Access Modifiers
 
+
+29nd Dec 2025
+=============
+
+    -> NOTE: It's not a good practice, to directly allow objects to be 
+                changed (Not Hiding)
+
+    -> Above can be Observed with NewStudent & Teacher class scenario 
+
+    -> NOTE: Now to avoid the changes directly on object data, 
+                we can use "private" access modifier 
+    
+    -> Above can be Observed with NewStudentPrivate & TeacherBk class scenario 
+
+    -> If we keep data as private, then we cannot update object data 
+        directly (Good Practice)
+
+    -> If Update is really required, then how ?
+
+        -> Getters & Setters 
+
+    -> Getters & Setters
+
+        -> Getters and Setters are fundamental in Java for implementing 
+            encapsulation, a core principle of Object-Oriented Programming (OOP)
+            Encapsulation involves bundling data (variables) and the 
+            methods that operate on that data within a single unit (a class), 
+            and restricting direct access to the internal state of an object.
+
+    -> How Getters and Setters Achieve Encapsulation:
+    
+        -> Data Hiding: Class variables (attributes) are declared as private. 
+            This prevents direct access and modification of these variables from 
+            outside the class, promoting data security and integrity.
+        
+        -> Controlled Access:
+            
+            -> Getter Methods (Accessors): These public methods are used to retrieve 
+                the values of private variables. They typically follow the 
+                naming convention getVariableName(). 
+                For example, getName() to retrieve the name variable.
+            
+            -> Setter Methods (Mutators): These public methods are used to modify or set 
+                the values of private variables. They typically follow the 
+                naming convention setVariableName(newValue). 
+                For example, setName(String newName) to set the name variable.
+
+        -> Benefits of using Getters and Setters for Encapsulation:
+            
+            -> Data Validation: Setters can include logic to validate 
+                input before assigning it to a private variable, 
+                ensuring data integrity. 
+                
+                For example, a setAge() method could check if the provided age 
+                is a positive number.
+
+    -> NOTE: Meaning Of implementing encapsulation is 
+
+        -> Using Class to bind variables and methods 
+        -> Using Private Access Modifier for all variables
+        -> Using Setters & Getters with validations 
+
+    
+
+    -> Abstraction
+
+        -> In object-oriented programming (OOP), abstraction is the concept of hiding 
+        complex internal implementation details and displaying only the essential features 
+        or functionality of an object to the user. 
+
+        -> Abstraction simplifies complex systems by breaking them into smaller, 
+            manageable components and provides a clear, 
+            simplified interface for interaction. 
+
+        -> Abstraction is implemented using Abstract classes & Interfaces
+
+
+    -> NOTE 
+
+        -> Encapsulation : Hiding Variables  
+            -> Use Private Access Modifier, with Setters & Getters 
+        
+        -> Abstraction : Hiding Methods  
+            -> Use Abstract Methods w.rt. Abstract classes & Interfaces
+    
+
+    -> Interfaces 
+
+        -> Interface is Blueprint Of Class 
+            -> Class is Blueprint Of Object
+            -> Object is Instance Of Class 
+
+        -> In Java, an interface is a blueprint of a class. 
+            It defines a contract that classes can choose to implement, 
+            ensuring they provide specific functionalities. 
+            Interfaces are declared using the interface keyword. 
+        
+        -> Interfaces contain Abstract Methods
+
+            -> Abstract Methods: Methods without Implementation(no body) 
+
+            -> Concrete Methods: Methods with Implementation(with body) 
+
+        -> NOTE: Interfaces are like real world contracts 
+
+        -> From Laptop Example Scenario
+
+            -> 
