@@ -16,5 +16,28 @@ public interface Laptop {
     public void screenLogic();
     public void keypadLogic();
     public void trackpadLogic();
+    // public void bioMetricLogin();
+
+    // adding new contract with implementation
+    // public void bioMetricLogin() {
+
+    // }
+
+    // adding new contract with implementation -> using default
+    default void bioMetricLogin() {
+        helperMethod(); // Calling the private method
+        System.out.println("Providing Govt Bio Metric");
+    }
+
+    // static method belonging to interface
+    static void greet() {
+        
+        System.out.println("Hello from MyInterface!");
+    }
+
+    private void helperMethod() {
+        System.out.println("This is a private helper.");
+    }
+
 
 }

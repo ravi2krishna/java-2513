@@ -1384,7 +1384,7 @@
             -> NOTE : On Inner Level Classes we can use all Access Modifiers
 
 
-29nd Dec 2025
+2nd Dec 2025
 =============
 
     -> NOTE: It's not a good practice, to directly allow objects to be 
@@ -1488,6 +1488,103 @@
 
         -> NOTE: Interfaces are like real world contracts 
 
+
+4th Dec 2025
+=============
+
         -> From Laptop Example Scenario
 
-            -> 
+            -> interface / contract Laptop (2020)
+
+            -> interface / contract Laptop (2025)
+
+                -> Now govt passed a new mandate that every laptop should include 
+                    bio metric authentication 
+
+
+    -> In the above situation till java 7, we needed abstract classes 
+
+        -> Turning concrete class to Abstract Class will fix issue 
+
+            -> public abstract class HP implements Laptop { }
+
+    -> From Java 8, we can add special methods in Interfaces
+
+        -> Before Java 8, only abstract methods are allowed 
+
+        -> From Java 8, onwards we can "default methods" 
+            where we can provide implementations 
+        
+        -> Default Methods (Java 8 and later):
+            
+            -> Introduced in Java 8 to allow adding new methods 
+                to interfaces without breaking existing implementing classes.
+            
+            -> They have a method body and provide a default implementation.
+            
+            -> Implementing classes can either use the default implementation 
+                or override it with their own.
+            
+            -> Declared using the default keyword.
+
+        -> Static Methods (Java 8 and later):
+            
+            -> Also introduced in Java 8.
+            
+            -> These methods belong to the interface itself, 
+                not to any specific implementing object.
+            
+            -> They can be called directly on the interface name.
+            
+            -> They cannot be overridden by implementing classes.
+            
+            -> Declared using the static keyword.
+
+        -> Private Methods (Java 9 and later):
+            
+            -> Introduced in Java 9 to allow code reuse 
+                within default and static methods of an interface.
+
+            -> They can only be called from other 
+                default or static methods within the same interface.
+            
+            -> They are not accessible to implementing classes.
+            
+            -> Declared using the private keyword.
+
+
+        -> Abstract Classes 
+
+        -> An abstract class in Java is a class that is declared with the "abstract" keyword
+
+        -> It serves as a blueprint for other classes and cannot be instantiated directly, 
+            meaning you cannot create objects of an abstract class. 
+
+        -> Can contain abstract methods
+
+        -> Can contain concrete (non-abstract) methods
+
+        -> Abstract classes are extended by other classes using the extends keyword
+
+    
+    -> LMS Application New Requirements to implement Abstraction
+
+        -> Interfaces (Personable.java, Payables.java)
+
+            -> Personable defines a contract for entities (like Student and Trainer)
+
+                -> managing their personal information
+
+            -> Payables defines a contract for entities that are involved in payment calculations
+
+                -> course fees for students, session payments for trainers
+
+        -> Abstract Class 
+
+            -> AbstractPerson serves as a base class to hold common attributes 
+            (like personID, personName, personAge, personMobileNumber)
+
+        -> Concrete Classes (Student.java, Trainer.java)
+
+            -> Student and Trainer classes now extend the AbstractPerson class, inheriting the 
+                common personal attributes and their management.
